@@ -1,0 +1,31 @@
+// LOCATIONS SECTION
+#locations {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url("/img/new-york-page.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.locations-head {
+  width: 90%;
+  margin: auto;
+
+  & h2 {
+    padding: 1rem 0;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5rem;
+  }
+
+  & h3 {
+    padding: 4rem 0;
+    background: linear-gradient(#131c27, #663b34);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

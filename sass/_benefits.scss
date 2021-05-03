@@ -1,0 +1,48 @@
+// BENEFITS SECTION
+.benefits-head {
+  background: #343c44;
+  padding: 3rem;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+
+  & h3 {
+    padding: 1rem;
+  }
+}
+
+// CARD
+.cards {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  min-height: 70vh;
+  align-items: center;
+  flex-wrap: wrap;
+
+  & img {
+    max-width: 15%;
+    margin: 2rem;
+  }
+}
+
+.card {
+  text-align: center;
+  flex: 1 1 25rem;
+  min-height: 40vh;
+  margin: 2rem 5rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.1), 0 2rem 2rem rgba(0, 0, 0, 0.1);
+
+  &-icon {
+    background: #27394e;
+  }
+
+  & h4,
+  p {
+    padding: 1rem;
+  }
+}

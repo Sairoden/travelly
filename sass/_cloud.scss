@@ -1,0 +1,28 @@
+// CLOUD
+.cloud {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.moving-cloud-1 {
+  animation: cloudAnimation 3s infinite alternate ease-in-out;
+}
+
+.moving-cloud-2 {
+  top: 20%;
+  z-index: -1;
+  opacity: 0.5;
+  animation: cloudAnimation 3.5s infinite alternate ease-in-out;
+}
+
+// ANIMATION
+@keyframes cloudAnimation {
+  from {
+    transform: translate(10%, -10%);
+  }
+
+  to {
+    transform: translate(0, 0);
+  }
+}
